@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+    body {
+      background-color: rgb(77, 58, 58);
+      color: rgb(11, 131, 105);
+      background-position: left top;
+      background-repeat: repeat-x;
+      background-size: contain;
+      transition-delay: inherit;
+    }
+    
+    h1 {
+      background-color: rgb(0, 0, 0);
+      color: rgb(154, 14, 167);
+    }
+    .RED,h2,#id1{
+                background-color:rgb(54, 86, 155);
+                color: rgb(240, 82, 135);
+    }
+   
+    #id1{
+                background-color:rgb(54, 155, 54);
+                color: rgb(82, 216, 240);
+    }
+    div {
+  width: 100px;
+  height: 100px;
+  background: rgb(136, 110, 110);
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-delay: 1s;
+}
+
+div:hover {
+  width: 300px;
+}
+.button{
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding-left: 0;
+  text-align: center;
+  text-decoration: dashed;
+  display: inline-block;
+  font-size: 16px;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   border-radius: 2cm;
+   box-shadow: 12cm;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+    </style>
+<script>
+    function f1(){
+        NAME=prompt("ENTER YOUR NAME")
+        alert("HELLO " + NAME )
+    }
+    </script>
+</head>
+<body>
+    
+      <h1>ENTER YOUR NAME</h1>
+      <h2>ENTER YOUR NAME</h2>
+    <input type="button" class="button" onclick="f1()" value="FUNCTION CALL"/>
+    <div class="RED">
+        <p>THIS IS A TEST CLASS </p>
+    </div>
+    <div id="id1">
+        <p> I AM CHECKING DIV ID NOW</p>
+    </div>
+
+    <div class="topnav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </div>
+      
+
+
+
+
+   
+</body>
+</html>
