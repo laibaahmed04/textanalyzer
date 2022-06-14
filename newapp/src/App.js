@@ -64,7 +64,7 @@ const changemode3 =()=>{
 <Navbar title="LAIBA'S TEXT ANALYZER" mode={mode} btntext={btntext} change={changemode} change1={changemode1} change2={changemode2} change3={changemode3}/>
       <Alert alert={alert}/>
       <Textform heading="Enter text to analyze"  mode={mode}/>
-    
+      <About mode={mode}/>
     
     </>
   );
